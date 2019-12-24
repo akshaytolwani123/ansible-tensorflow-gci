@@ -1,0 +1,9 @@
+---
+
+- name: Install tensorflow-gpu
+  hosts: localhost
+  tasks:
+
+    - name: Install tensorflow
+      pip:
+        name: tensorflow-gpu
